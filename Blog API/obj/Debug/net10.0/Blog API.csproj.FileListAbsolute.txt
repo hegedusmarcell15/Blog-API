@@ -1,0 +1,35 @@
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\appsettings.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Blog API.staticwebassets.endpoints.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Blog API.exe
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Blog API.deps.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Blog API.runtimeconfig.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Blog API.dll
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Blog API.pdb
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.csproj.AssemblyReference.cache
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.AssemblyInfoInputs.cache
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.AssemblyInfo.cs
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.csproj.CoreCompileInputs.cache
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\scopedcss\bundle\Blog API.styles.css
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.csproj.Up2Date
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.dll
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\refint\Blog API.dll
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.pdb
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.genruntimeconfig.cache
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\ref\Blog API.dll
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Scalar.AspNetCore.dll
