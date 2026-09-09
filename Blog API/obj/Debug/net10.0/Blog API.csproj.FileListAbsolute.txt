@@ -33,3 +33,5 @@ C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.
 C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.genruntimeconfig.cache
 C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\ref\Blog API.dll
 C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\Scalar.AspNetCore.dll
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\obj\Debug\net10.0\Blog API.sourcelink.json
+C:\Users\hegedusm\Documents\2026-2027\Backend\Blog API\Blog API\bin\Debug\net10.0\MySqlConnector.dll

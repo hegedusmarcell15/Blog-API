@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "Blog_API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "Blog_API.Controllers.BloggerController",
+    "Method": "GetAllBlogger",
+    "RelativePath": "api/Blogger",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Blog_API.WeatherForecast, Blog API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Blog_API.Models.Blogger, Blog API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +17,64 @@
         ],
         "StatusCode": 200
       }
+    ]
+  },
+  {
+    "ContainingType": "Blog_API.Controllers.BloggerController",
+    "Method": "AddNewBlogger",
+    "RelativePath": "api/Blogger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogger",
+        "Type": "Blog_API.Models.Blogger",
+        "IsRequired": true
+      }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog_API.Controllers.BloggerController",
+    "Method": "UpdateBlogger",
+    "RelativePath": "api/Blogger",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "blogger",
+        "Type": "Blog_API.Models.Blogger",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog_API.Controllers.BloggerController",
+    "Method": "DeleteBlogger",
+    "RelativePath": "api/Blogger",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "blogger",
+        "Type": "Blog_API.Models.Blogger",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
