@@ -35,6 +35,50 @@ namespace Blog_API.Controllers
             connector.Close();
             return blogPosts;
         }
-
+        [HttpPost]
+        public object AddNewBlogPost(Blogpost blogPost)
+        {
+            var connector = new MySqlConnection(ConnectionString);
+            connector.Open();
+            var sql = "INSERT INTO blogpost (Title, Content, postTime, updateTime, blogId) VALUES (@title, @content, @posttime, @updatetime, @blogid)";
+            var cmd = new MySqlCommand(sql, connector);
+            cmd.Parameters.AddWithValue("@title", blogPost.Title);
+            cmd.Parameters.AddWithValue("@content", blogPost.Content);
+            cmd.Parameters.AddWithValue("@posttime", blogPost.postTime);
+            cmd.Parameters.AddWithValue("@updatetime", blogPost.updateTime);
+            cmd.Parameters.AddWithValue("@blogid", blogPost.blogId);
+            cmd.ExecuteNonQuery();
+            connector.Close();
+            return blogPost;
+        }
+        [HttpPut]
+        public object UpdateBlogPost(int id, Blogpost blogPost)
+        {
+            var connector = new MySqlConnection(ConnectionString);
+            connector.Open();
+            var sql = "UPDATE blogpost SET Title=@title, Content=@content, postTime=@posttime, updateTime=@updatetime, blogId=@blogid WHERE Id=@id";
+            var cmd = new MySqlCommand(sql, connector);
+            cmd.Parameters.AddWithValue("@title", blogPost.Title);
+            cmd.Parameters.AddWithValue("@content", blogPost.Content);
+            cmd.Parameters.AddWithValue("@posttime", blogPost.postTime);
+            cmd.Parameters.AddWithValue("@updatetime", blogPost.updateTime);
+            cmd.Parameters.AddWithValue("@blogid", blogPost.blogId);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.ExecuteNonQuery();
+            connector.Close();
+            return blogPost;
+        }
+        [HttpDelete]
+        public object DeleteBlogPost(int id)
+        {
+            var connector = new MySqlConnection(ConnectionString);
+            connector.Open();
+            var sql = "DELETE FROM blogpost WHERE Id=@id";
+            var cmd = new MySqlCommand(sql, connector);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.ExecuteNonQuery();
+            connector.Close();
+            return null;
+        }
     }
 }
