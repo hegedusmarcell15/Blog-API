@@ -14,7 +14,7 @@ namespace Blog_API.Controllers
     [ApiController]
     public class BloggerController : ControllerBase
     {
-        public readonly string ConnectionString = "server=localhost; Database=blog; userid=root; password=";
+        public readonly string ConnectionString = "server=localhost:3306; Database=blog; userid=root; password=";
         [HttpGet]
         public List<Blogger> GetAllBlogger()
         {
