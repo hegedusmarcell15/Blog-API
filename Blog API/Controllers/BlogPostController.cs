@@ -35,5 +35,6 @@ namespace Blog_API.Controllers
             connector.Close();
             return blogPosts;
         }
+
     }
 }
