@@ -6,6 +6,7 @@ using System.Data;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using MySqlConnector;
+using Blog_API.Models.DTOs;
 
 namespace Blog_API.Controllers
 {
@@ -13,7 +14,7 @@ namespace Blog_API.Controllers
     [ApiController]
     public class BloggerController : ControllerBase
     {
-        private readonly string ConnectionString = "server=localhost; Database=blogger; userid=root; password=";
+        public readonly string ConnectionString = "server=localhost; Database=blog; userid=root; password=";
         [HttpGet]
         public List<Blogger> GetAllBlogger()
         {
@@ -71,7 +72,25 @@ namespace Blog_API.Controllers
             return blg;
         }
         [HttpPut]
-        public object UpdateBlogger(int id, Blogger blogger)
+        public object UpdateBlogger([FromQuery]int id,[FromBody]UpdateBloggerDto updateBloggerDto)
+        {
+            var connector = new MySqlConnection(ConnectionString);
+            connector.Open();
+            string sql = $"UPDATE `blogger` SET `Name`=@name,`Email`=@email,`Age`=@age,`Password`=@password WHERE id = @id";
+            
+            var cmd = new MySqlCommand(sql, connector);
+            cmd.Parameters.AddWithValue("@name", updateBloggerDto.Name);
+            cmd.Parameters.AddWithValue("@email", updateBloggerDto.Email);
+            cmd.Parameters.AddWithValue("@age", updateBloggerDto.Age);
+            cmd.Parameters.AddWithValue("@password", updateBloggerDto.Password);
+            cmd.Parameters.AddWithValue("@id", id);
+
+            cmd.ExecuteNonQuery();
+            connector.Close();
+            return updateBloggerDto;
+        }
+        [HttpDelete]
+        public object DeleteBlogger(int id, Blogger blogger)
         {
             var connector = new MySqlConnection(ConnectionString);
             connector.Open();
@@ -80,11 +99,6 @@ namespace Blog_API.Controllers
             cmd.Parameters.AddWithValue("@id", id);
             cmd.ExecuteNonQuery();
             connector.Close();
-            return null;
-        }
-        [HttpDelete]
-        public object DeleteBlogger(int id, Blogger blogger)
-        {
             return null;
         }
     }
